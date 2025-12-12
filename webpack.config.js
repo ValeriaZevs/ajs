@@ -7,7 +7,7 @@ module.exports = {
     filename: 'index.js',
     library: 'ajs',
     libraryTarget: 'umd',
-    libraryExport: 'default',
+    libraryExport: 'default',  // –í–ê–ñ–ù–û!
     globalObject: 'this',
   },
   module: {
@@ -19,10 +19,11 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            sourceType: 'unambiguous', // ¬¿∆ÕŒ
+            sourceType: 'unambiguous',
           },
         },
       },
     ],
   },
 };
+

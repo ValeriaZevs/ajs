@@ -1,6 +1,10 @@
 {
     "name": "@valeriazevs/ajs",
+<<<<<<< HEAD
     "version": "1.0.4",
+=======
+    "version": "1.0.1",
+>>>>>>> 3435144d5b9c2e84606b95ec2deb18c4279103b3
     "description": "",
     "homepage": "https://github.com/ValeriaZevs/ajs#readme",
     "bugs": {

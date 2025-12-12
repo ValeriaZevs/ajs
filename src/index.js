@@ -5,6 +5,7 @@ function info() {
   return m;
 }
 
+// ВАЖНО: никаких export, только module.exports
 module.exports = {
-  info
+  info,
 };

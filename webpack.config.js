@@ -7,22 +7,10 @@ module.exports = {
     filename: 'index.js',
     library: 'ajs',
     libraryTarget: 'umd',
-    libraryExport: 'default',
     globalObject: 'this',
   },
+  // ВАЖНО: убираем любые rules с babel-loader
   module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-            sourceType: 'unambiguous', // ВАЖНО
-          },
-        },
-      },
-    ],
+    rules: []
   },
 };
